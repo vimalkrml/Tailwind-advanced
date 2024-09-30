@@ -1,12 +1,12 @@
 {
   "name": "airbnb-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Airbnb project using Parcel, Tailwind CSS, and Flowbite",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "flowbite": "^1.5.1",
@@ -16,5 +16,8 @@
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.6"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
